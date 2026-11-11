@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* /うちの郷土料理/shared/css/print.css */
+
+.content .section,
+.content .section:last-child {
+	padding: 30px 0 0 !important;
+}
+.gnav,
+.breadcrumb,
+.footer-up_outer,
+.footer-bottom,
+.print_none {
+	display: none !important;
+}
+.content .contentWrap .main_navi {
+	background: none;
+}
+.content .contentWrap .main_navi > .inner {
+	padding: 24px 0;
+}
+.content .contentWrap .section > .inner {
+	max-width: 960px;
+}
+.print_use {
+	display: block;
+}
+.header_up_bg,
+.print_bg_none {
+	background: none !important;
+}
+.main_visual {
+	margin-top: 0 !important;
+}
+.main_navi,
+.main_navi.is-fixed {
+	position: relative !important;
+}
+.content h1 {
+	display: none !important;
+}
